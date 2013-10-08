@@ -33,7 +33,13 @@ void Alignement::addTail(char a, char b)
 	s2.push_back(b);
 }
 
-unsigned int Alignement:size()
+unsigned int Alignement::size()
 {
 	return s1.size();
+}
+
+ostream& operator<<(ostream& sortie, Alignement const& a)
+{
+  sortie << a.s1 << endl << a.s2;
+  return sortie;
 }

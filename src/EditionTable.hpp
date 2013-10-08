@@ -8,7 +8,7 @@ class EditionTable
 {
 	
 public:
-	EditionTable(string s1, string s2, SubstitutionMatrix SM, );
+	EditionTable(string s1, string s2, SubstitutionMatrix SM, int penalite);
 	virtual ~EditionTable();
 
 private:

@@ -1,37 +1,3 @@
-#include "EditionTable.hpp"
-
-EditionTable::EditionTable(string s1, string s2, SubstitutionMatrix SM, int penalite)
-{
-	
-}
-
-EditionTable::~EditionTable(){}
-
-
-
-s1 s2
-int scoremax(0);
-int maxlength(2 * s1.size());
-f(s1 s2, n){
-++n
-
-string s3 = s1.insert()
-f(s3,s2,n)
-string s4 = s1.supress()
-f(s4,s2,n)		
-string s5 = s1.substitute)
-f(s5,s2,n)
-	
-	
-		
-		
-
-	string insert(Alignement a, string s1, string s2, int index1, int index2)
-	{
-		a.addback('-',s2[index2]);
-		++index2;
-	}
-	
 	void f(Alignement a, string s1, string s2, int index1, int index2)
 	{
 		if(index1 != s1.size() && index2 != s2.size())
@@ -69,8 +35,3 @@ f(s5,s2,n)
 			}
 		}
 	}
-				 
-		
-		
-		
-		
