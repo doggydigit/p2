@@ -42,7 +42,7 @@ void f(Alignement a, string s1, string s2, int index1, int index2, int maxscore=
 			{	
 				a.addback('-',s2[index2]);
 				++index2;
-				f(a,s1,s2,index1,index2,maxscore, resultat);
+				f(a,s1,s2,index1+1,index2,maxscore, resultat);
 			}	
 			if (index2 != s2.size()) //insert
 			{
@@ -77,8 +77,8 @@ void f(Alignement a, string s1, string s2, int index1, int index2, int maxscore=
 	}
 
 int main() {
-	string a("A");
-	string b("A");
+	string a("AA");
+	string b("AA");
 	Alignement A;
 	vector<Alignement> x;
 	f(A,a,b,0,0,0,x);
