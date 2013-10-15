@@ -1,0 +1,17 @@
+Alignement de séquences de caractères - Algorithme de Needleman-Wunsch
+Version simple
+
+Cette correction possible du mini-projet est fournie sans les tests de 
+développements intermédiaires.
+
+
+Compilation:
+
+$ scons -Qi
+
+Nettoyage:
+
+$ scons -c
+
+Pour l'exécution: ./bin/seqalign ...
+Lire le fichier ./man pour plus de détails 

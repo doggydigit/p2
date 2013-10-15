@@ -12,15 +12,16 @@ public:
 	Alignement();
 	~Alignement();
 	int getScore();
+	void update();
 	void removeHead();
 	void removeTail();
 	void addHead(char a, char b);
 	void addTail(char a, char b);
-	unsigned int size();
+	unsigned int size;
+	char trou;
 
 private:
 	int Score;
-	char trou;
 	string s1;
 	string s2;
 	

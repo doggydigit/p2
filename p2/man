@@ -1,0 +1,26 @@
+NAME
+seqalign - global sequence alignment
+
+SYNOPSIS
+
+seqalign SEQ1 SEQ2 [SEQ3,...]
+
+DESCRIPTION
+
+seqalign finds all optimal alignments between the sequences passed.
+If more than two sequences are given, the first one is taken as reference and
+align-basic searches all optimal alignments between the reference sequence and
+the others.
+
+Each input sequence can be either a litteral string or a filename containing the
+sequence. In files, the '#' characters indicates a line-oriented comment.
+
+EXAMPLES
+(all three examples give the same output)
+
+
+seqalign AGTC ACT 
+
+echo AGTC > seq; seqalign seq ACT
+
+echo AGTC > seq1; echo ACT > seq2; seqalign seq1 seq2

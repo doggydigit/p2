@@ -13,8 +13,6 @@ public:
 	SequenceLoader();
 	virtual ~SequenceLoader();
 	void load(string s);
-
-private:
 	vector<string> sequence;
 	
 };
