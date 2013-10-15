@@ -1,7 +1,9 @@
-#ifndef SUBSTITUTIONMATRIX_H
+/*#ifndef SUBSTITUTIONMATRIX_H
 #define SUBSTITUTIONMATRIX_H
 
 #include <iostream>
+#include <vector>
+using namespace std;
 
 class SubstitutionMatrix
 {
@@ -17,3 +19,4 @@ private:
 };
 
 #endif
+*/

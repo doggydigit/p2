@@ -1,4 +1,4 @@
-#include "EditionTable.hpp"
+/*#include "EditionTable.hpp"
 
 EditionTable::EditionTable(string s1, string s2, SubstitutionMatrix SM, int penalite)
 {
@@ -56,7 +56,7 @@ f(s1 s2, n){
 		}
 	}
 				 
-		
+		*/
 		
 		
 		

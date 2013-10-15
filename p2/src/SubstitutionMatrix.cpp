@@ -1,4 +1,4 @@
-#include "SubstitutionMatrix.hpp"
+/*#include "SubstitutionMatrix.hpp"
 
 SubstitutionMatrix::SubstitutionMatrix(): matrix(vector<20,vector<20,0>>)
 {
@@ -10,3 +10,4 @@ SubstitutionMatrix::SubstitutionMatrix(): matrix(vector<20,vector<20,0>>)
 
 SubstitutionMatrix::~SubstitutionMatrix(){}
 
+*/

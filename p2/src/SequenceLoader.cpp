@@ -7,7 +7,7 @@ SequenceLoader::~SequenceLoader(){}
 
 void SequenceLoader::load(string s)
 {
-	string newseq,
+	string newseq;
 	ifstream entree(s.c_str());
 	if(entree.fail())
 	{

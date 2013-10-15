@@ -8,13 +8,13 @@ void AlignFindAll::f(Alignement a,unsigned int index1,unsigned int index2)
 {
 	if(index1 != s1.size() && index2 != s2.size())
 	{
-		if (index1 != s1.size())
+		if (index2 != s2.size())
 		{	
 			a.addTail(a.trou,s2[index2]);
 			++index2;
 			f(a,index1,index2);
 		}	
-		if (index2 != s2.size())
+		if (index1 != s1.size())
 		{
 			a.addTail(s1[index1],a.trou);
 			++index1;

@@ -33,12 +33,12 @@ void Alignement::removeTail()
 	s1.pop_back();
 	s2.pop_back();
 }
-
+/*
 void Alignement::addHead(char a, char b)
 {
 	s1.insert(0,a);
 	s2.insert(0,b);
-}
+}*/
 
 void Alignement::addTail(char a, char b)
 {
@@ -52,8 +52,4 @@ void Alignement::addTail(char a, char b)
 }
 */ 
 
-ostream& operator<<(ostream& sortie, Alignement const& a)
-{
-  sortie << a.s1 << endl << a.s2 << endl;
-  return sortie;
-}
+
